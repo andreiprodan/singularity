@@ -10,6 +10,8 @@ From: ubuntu:20.04
    CONDA_INSTALL_PATH="/usr/local/miniconda3"
    CONDA_BIN_PATH="/usr/local/miniconda3/bin"
    export PATH="$CONDA_BIN_PATH:$PATH"
+   export LC_ALL=C.UTF-8
+   export LANG=C.UTF-8
 
 %labels
    OWNER andreiprodan
