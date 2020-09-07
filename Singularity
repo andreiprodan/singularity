@@ -2,7 +2,7 @@ Bootstrap: docker
 From: ubuntu:20.04
 
 %runscript
-    exec echo "This is an Ubuntu 20.04 LTS Container with Miniconda!!"
+    exec echo "This is an Ubuntu 20.04 LTS Container with Miniconda v4.8.3!!"
 
 %files
    
