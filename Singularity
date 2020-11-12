@@ -25,5 +25,3 @@ From: ubuntu:20.04
    ./Miniconda3-py38_4.8.3-Linux-x86_64.sh -b -p $CONDA_INSTALL_PATH
    rm Miniconda3-py38_4.8.3-Linux-x86_64.sh
    export PATH="/usr/local/miniconda3/bin:$PATH"      # cant create environments without this
-   #conda install -c conda-forge mamba      # Install mamba (better package dependency resolution than classical conda)
-   #mamba create -y -c conda-forge -c bioconda -n snakemake snakemake=5.23.0       # Install snakemake v5.23.0 with mamba
