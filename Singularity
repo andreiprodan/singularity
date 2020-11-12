@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: ubuntu:20.04
+From: ubuntu@sha256:fff16eea1a8ae92867721d90c59a75652ea66d29c05294e6e2f898704bdb8cf1
 
 %runscript
     exec echo "This is an Ubuntu 20.04 LTS Container with Miniconda v4.8.3!!"
